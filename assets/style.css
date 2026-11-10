@@ -1,0 +1,134 @@
+/* MAIN APPLICATION BACKGROUND */
+
+.stApp {
+    background-color: #2B1D18 !important;
+    color: #F5EBDD !important;
+}
+
+[data-testid="stAppViewContainer"] {
+    background-color: #2B1D18 !important;
+}
+
+[data-testid="stHeader"] {
+    background-color: #2B1D18 !important;
+}
+
+/* MAIN CONTENT */
+
+.main .block-container {
+    background-color: #2B1D18 !important;
+    padding-top: 2rem;
+}
+
+/* HEADINGS */
+
+h1, h2, h3, h4 {
+    color: #E8C77B !important;
+    font-weight: bold !important;
+}
+
+/* NORMAL TEXT */
+
+p, label, li {
+    color: #F5EBDD !important;
+}
+
+/* SIDEBAR */
+
+[data-testid="stSidebar"] {
+    background-color: #3B2921 !important;
+}
+
+[data-testid="stSidebar"] > div {
+    background-color: #3B2921 !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #F5EBDD !important;
+}
+
+/* METRIC CARDS */
+
+[data-testid="stMetric"] {
+    background-color: #463027 !important;
+    padding: 20px !important;
+    border-radius: 12px !important;
+    border: 1px solid #D4AF65 !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #E8C77B !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #FFFFFF !important;
+}
+
+/* BUTTONS */
+
+.stButton > button {
+    background-color: #B87936 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #D4AF65 !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
+}
+
+.stButton > button:hover {
+    background-color: #D49A50 !important;
+    color: #2B1D18 !important;
+}
+
+/* INPUT FIELDS */
+
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    background-color: #463027 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #D4AF65 !important;
+}
+
+/* SELECT BOX */
+
+[data-baseweb="select"] > div {
+    background-color: #463027 !important;
+    color: #FFFFFF !important;
+    border-color: #D4AF65 !important;
+}
+
+/* DATAFRAME */
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #D4AF65 !important;
+    border-radius: 10px !important;
+}
+
+/* FORMS */
+
+[data-testid="stForm"] {
+    background-color: #3B2921 !important;
+    padding: 20px !important;
+    border: 1px solid #D4AF65 !important;
+    border-radius: 12px !important;
+}
+
+/* CHAT MESSAGES */
+
+[data-testid="stChatMessage"] {
+    background-color: #463027 !important;
+    border: 1px solid #D4AF65 !important;
+    border-radius: 12px !important;
+}
+
+/* DIVIDERS */
+
+hr {
+    border-color: #D4AF65 !important;
+}
+
+/* ALERTS */
+
+[data-testid="stAlert"] {
+    border-radius: 10px !important;
+}
